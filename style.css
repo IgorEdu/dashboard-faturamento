@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(159.02deg, #384e6e 14.25%, #1c314f 56.45%, #00142f 86.14%);
+}
+
+header{
+  height: 10vh;
+  width: 100vw;
+  /*background: linear-gradient(to bottom, #003eccb8 0%,#002b8cb8 100%);*/
+  background: linear-gradient(159.02deg, #60719e 30%, #1c314f 56.45%, #00142f 86.14%);
+  box-shadow: 1px 7px 14px -2px #0003;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+
+header p, header h1{
+  margin: 0 2rem;
+}
+
+header img{
+  margin: 0 2em;
+  height: 9vh;
+}
+
+.container-chart {
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+}
+
+.container-progress {
+  height: 70vh;
+  width: 18vw;
+  margin: 0 1vw;
+  background: linear-gradient(159.02deg, #384e6e 14.25%, #1c314f 56.45%, #00142f 86.14%);
+  /*box-shadow: 1px 7px 14px -2px rgba(71, 71, 71, 0.2);*/
+  box-shadow: 1px 7px 14px -2px rgb(62, 54, 74, 0.5);
+  border-radius: 5%;
+  color: whitesmoke;
+}
+
+.panel-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.swiper{
+  margin-top: 5vh;
+  height: 80vh;
+  width: 90vw;
+}
+
+.swiper-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1vw;
+}
+
+.container-card {
+  max-height: 80vh;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+}
+
+.container-card-long {
+  max-height: 80vh;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 40vw;
+}
+
+.card{
+  height: 30vh;
+  width: 18vw;
+  background: linear-gradient(159.02deg, #384e6e 14.25%, #1c314f 56.45%, #00142f 86.14%);
+  /*box-shadow: 1px 7px 14px -2px rgba(71, 71, 71, 0.2);*/
+  box-shadow: 1px 7px 14px -2px rgb(62, 54, 74, 0.5);
+  border-radius: 5%;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.3em;
+}
+
+.card-value{
+  font-size: 5vh;
+  padding: 5vh 2vh;
+}
+
+.card-long{
+  height: 30vh;
+  width: 38vw;
+  background: linear-gradient(159.02deg, #384e6e 14.25%, #1c314f 56.45%, #00142f 86.14%);
+  /*box-shadow: 1px 7px 14px -2px rgba(71, 71, 71, 0.2);*/
+  box-shadow: 1px 7px 14px -2px rgb(62, 54, 74, 0.5);
+  border-radius: 1vw;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.3em;
+  font-size: 5vh;
+}
+
+.card-long .card-value{
+  /* position: absolute; */
+  justify-content: right;
+  text-align: center;
+  font-size: 6vh;
+}
+

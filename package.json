@@ -1,0 +1,14 @@
+{
+  "name": "dashboard-faturamento",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
+}
